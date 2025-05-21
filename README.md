@@ -37,8 +37,11 @@
 1. setup môi trường
 
 conda create name_env python3.9
+
 conda activate name_env
+
 python.exe -m pip install --upgrade pip
+
 pip install -r requirements.txt
 
 2. Tiền xử lý dữ liệu
@@ -66,19 +69,25 @@ python scripts/drift_detect.py
 mlflow ui
 
 8. fastAPI
+   
 uvicorn scripts.api:app --reload
+
 Truy cập: http://localhost:8000/docs
 
 ## Hướng dẫn Deploy model với Docker (lưu ý mở Docker Desktop)
 
 1. setup môi trường
+   
 conda create name_env python3.9
+
 conda activate name_env
+
 python.exe -m pip install --upgrade pip
+
 pip install -r requirements.txt
 
-
 2. Deploy API bằng Docker
+
 docker-compose up --build
 
 
