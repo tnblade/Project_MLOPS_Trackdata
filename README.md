@@ -35,6 +35,7 @@
 ## 🛠️ Hướng dẫn cài đặt setup trên máy (local chạy thủ công)
 
 1. setup môi trường
+
 conda create name_env python3.9
 conda activate name_env
 python.exe -m pip install --upgrade pip
