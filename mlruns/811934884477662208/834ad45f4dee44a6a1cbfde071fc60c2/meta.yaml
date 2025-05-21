@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/811934884477662208/834ad45f4dee44a6a1cbfde071fc60c2/artifacts
+end_time: 1747131850628
+entry_point_name: ''
+experiment_id: '811934884477662208'
+lifecycle_stage: active
+run_id: 834ad45f4dee44a6a1cbfde071fc60c2
+run_name: charming-donkey-850
+run_uuid: 834ad45f4dee44a6a1cbfde071fc60c2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747131848490
+status: 3
+tags: []
+user_id: anhnh

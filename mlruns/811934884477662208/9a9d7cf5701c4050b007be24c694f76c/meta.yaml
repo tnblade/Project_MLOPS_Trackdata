@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/811934884477662208/9a9d7cf5701c4050b007be24c694f76c/artifacts
+end_time: 1747131614853
+entry_point_name: ''
+experiment_id: '811934884477662208'
+lifecycle_stage: active
+run_id: 9a9d7cf5701c4050b007be24c694f76c
+run_name: delightful-panda-466
+run_uuid: 9a9d7cf5701c4050b007be24c694f76c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747131613413
+status: 3
+tags: []
+user_id: anhnh

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/811934884477662208/c4ab6d5a1434492b9a637206e5730525/artifacts
+end_time: 1747131848461
+entry_point_name: ''
+experiment_id: '811934884477662208'
+lifecycle_stage: active
+run_id: c4ab6d5a1434492b9a637206e5730525
+run_name: grandiose-shrimp-167
+run_uuid: c4ab6d5a1434492b9a637206e5730525
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747131846134
+status: 3
+tags: []
+user_id: anhnh

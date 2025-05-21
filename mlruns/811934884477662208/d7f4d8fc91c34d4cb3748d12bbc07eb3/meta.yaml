@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/811934884477662208/d7f4d8fc91c34d4cb3748d12bbc07eb3/artifacts
+end_time: 1747129651027
+entry_point_name: ''
+experiment_id: '811934884477662208'
+lifecycle_stage: active
+run_id: d7f4d8fc91c34d4cb3748d12bbc07eb3
+run_name: whimsical-goat-564
+run_uuid: d7f4d8fc91c34d4cb3748d12bbc07eb3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747129649928
+status: 3
+tags: []
+user_id: anhnh

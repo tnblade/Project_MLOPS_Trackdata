@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/811934884477662208/6f832e896d09490f86b118da95d93e4c/artifacts
+end_time: 1747131617593
+entry_point_name: ''
+experiment_id: '811934884477662208'
+lifecycle_stage: active
+run_id: 6f832e896d09490f86b118da95d93e4c
+run_name: bustling-hawk-510
+run_uuid: 6f832e896d09490f86b118da95d93e4c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747131616423
+status: 3
+tags: []
+user_id: anhnh

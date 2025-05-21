@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/894960502596673989/dd2dd15cd1ec4aa691e2752815994c24/artifacts
+end_time: 1747129741938
+entry_point_name: ''
+experiment_id: '894960502596673989'
+lifecycle_stage: active
+run_id: dd2dd15cd1ec4aa691e2752815994c24
+run_name: able-moth-704
+run_uuid: dd2dd15cd1ec4aa691e2752815994c24
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747129737493
+status: 3
+tags: []
+user_id: anhnh

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/894960502596673989/ae100d3aceef4756a903fa797dac3ba5/artifacts
+end_time: 1747130841937
+entry_point_name: ''
+experiment_id: '894960502596673989'
+lifecycle_stage: active
+run_id: ae100d3aceef4756a903fa797dac3ba5
+run_name: stately-stag-768
+run_uuid: ae100d3aceef4756a903fa797dac3ba5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747130837639
+status: 3
+tags: []
+user_id: anhnh

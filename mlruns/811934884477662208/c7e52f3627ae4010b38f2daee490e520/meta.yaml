@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/811934884477662208/c7e52f3627ae4010b38f2daee490e520/artifacts
+end_time: 1747131616403
+entry_point_name: ''
+experiment_id: '811934884477662208'
+lifecycle_stage: active
+run_id: c7e52f3627ae4010b38f2daee490e520
+run_name: unruly-gnat-510
+run_uuid: c7e52f3627ae4010b38f2daee490e520
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747131615679
+status: 3
+tags: []
+user_id: anhnh

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/811934884477662208/bd177a98ffcb4199afe28c8e116c085a/artifacts
+end_time: 1747130850694
+entry_point_name: ''
+experiment_id: '811934884477662208'
+lifecycle_stage: active
+run_id: bd177a98ffcb4199afe28c8e116c085a
+run_name: enthused-bug-570
+run_uuid: bd177a98ffcb4199afe28c8e116c085a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747130849303
+status: 3
+tags: []
+user_id: anhnh

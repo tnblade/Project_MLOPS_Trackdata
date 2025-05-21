@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/811934884477662208/d3acd92fc7374079bc85664a9d770f6c/artifacts
+end_time: 1747130846595
+entry_point_name: ''
+experiment_id: '811934884477662208'
+lifecycle_stage: active
+run_id: d3acd92fc7374079bc85664a9d770f6c
+run_name: legendary-lark-443
+run_uuid: d3acd92fc7374079bc85664a9d770f6c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747130845881
+status: 3
+tags: []
+user_id: anhnh

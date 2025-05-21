@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/811934884477662208/e248957a638947ac93e45a7a036c829c/artifacts
+end_time: 1747130847184
+entry_point_name: ''
+experiment_id: '811934884477662208'
+lifecycle_stage: active
+run_id: e248957a638947ac93e45a7a036c829c
+run_name: secretive-newt-87
+run_uuid: e248957a638947ac93e45a7a036c829c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747130846615
+status: 3
+tags: []
+user_id: anhnh

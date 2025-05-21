@@ -1,0 +1,53 @@
+stages:
+  preprocess:
+    cmd: python scripts/data_load.py
+    deps:
+      - scripts/data_load.py
+      - data/raw/WA_Fn-UseC_-Telco-Customer-Churn.csv
+    outs:
+      - data/processed/train.npz
+      - data/processed/test.npz
+      - models/preprocessor.pkl
+
+  tune:
+    cmd: python scripts/hyperparameter.py
+    deps:
+      - scripts/hyperparameter.py
+      - data/processed/train.npz
+      - params.yaml
+    outs:
+      - models/best_model.pkl
+      - models/best_params.pkl
+
+  train:
+    cmd: python scripts/train.py
+    deps:
+      - scripts/train.py
+      - data/processed/train.npz
+      - models/preprocessor.pkl
+      - models/best_params.pkl
+      - params.yaml
+    outs:
+      - models/model.pkl
+
+  evaluate:
+    cmd: python scripts/evaluate.py
+    deps:
+      - scripts/evaluate.py
+      - models/model.pkl
+      - data/processed/train.csv
+    outs:
+      - reports/default_model_eval_report.json
+      - reports/best_model_eval_report.json
+      - reports/model_comparison.json
+
+  drift:
+    cmd: python scripts/drift_detect.py
+    deps:
+      - scripts/drift_detect.py
+      - data/processed/train.npz
+      - data/processed/test.npz
+    outs:
+      - reports/drift_report.html
+      - reports/drift_report.json
+      

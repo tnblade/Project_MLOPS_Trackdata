@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/811934884477662208/0150ef8efdab4ad9b389569b1f0e454c/artifacts
+end_time: 1747130851354
+entry_point_name: ''
+experiment_id: '811934884477662208'
+lifecycle_stage: active
+run_id: 0150ef8efdab4ad9b389569b1f0e454c
+run_name: stately-ant-774
+run_uuid: 0150ef8efdab4ad9b389569b1f0e454c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747130850713
+status: 3
+tags: []
+user_id: anhnh

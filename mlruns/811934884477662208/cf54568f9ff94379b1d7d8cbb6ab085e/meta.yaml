@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/811934884477662208/cf54568f9ff94379b1d7d8cbb6ab085e/artifacts
+end_time: 1747130856160
+entry_point_name: ''
+experiment_id: '811934884477662208'
+lifecycle_stage: active
+run_id: cf54568f9ff94379b1d7d8cbb6ab085e
+run_name: indecisive-hawk-57
+run_uuid: cf54568f9ff94379b1d7d8cbb6ab085e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747130855601
+status: 3
+tags: []
+user_id: anhnh

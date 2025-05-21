@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/811934884477662208/c9ed243be10b44bfb69bc8fc5dbd9b8a/artifacts
+end_time: 1747130854349
+entry_point_name: ''
+experiment_id: '811934884477662208'
+lifecycle_stage: active
+run_id: c9ed243be10b44bfb69bc8fc5dbd9b8a
+run_name: ambitious-squid-593
+run_uuid: c9ed243be10b44bfb69bc8fc5dbd9b8a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747130852165
+status: 3
+tags: []
+user_id: anhnh

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/811934884477662208/3bcbc6a2a69d4c5bb0636f44ce0a813e/artifacts
+end_time: 1747131843804
+entry_point_name: ''
+experiment_id: '811934884477662208'
+lifecycle_stage: active
+run_id: 3bcbc6a2a69d4c5bb0636f44ce0a813e
+run_name: indecisive-crab-801
+run_uuid: 3bcbc6a2a69d4c5bb0636f44ce0a813e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747131841629
+status: 3
+tags: []
+user_id: anhnh

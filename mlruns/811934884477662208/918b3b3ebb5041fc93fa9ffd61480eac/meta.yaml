@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/811934884477662208/918b3b3ebb5041fc93fa9ffd61480eac/artifacts
+end_time: 1747130866779
+entry_point_name: ''
+experiment_id: '811934884477662208'
+lifecycle_stage: active
+run_id: 918b3b3ebb5041fc93fa9ffd61480eac
+run_name: nervous-shark-396
+run_uuid: 918b3b3ebb5041fc93fa9ffd61480eac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747130865709
+status: 3
+tags: []
+user_id: anhnh

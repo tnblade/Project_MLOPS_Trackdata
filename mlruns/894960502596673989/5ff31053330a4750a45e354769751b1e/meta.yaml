@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/894960502596673989/5ff31053330a4750a45e354769751b1e/artifacts
+end_time: 1747132631569
+entry_point_name: ''
+experiment_id: '894960502596673989'
+lifecycle_stage: active
+run_id: 5ff31053330a4750a45e354769751b1e
+run_name: clumsy-swan-684
+run_uuid: 5ff31053330a4750a45e354769751b1e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747132627119
+status: 3
+tags: []
+user_id: anhnh
