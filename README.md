@@ -1,4 +1,3 @@
-# 🧠 Telco Customer Churn MLOps Pipeline with DVC, MLflow, Optuna
 
 ## 🚀 Giới thiệu dự án
 - Data & Model Versioning (DVC)
