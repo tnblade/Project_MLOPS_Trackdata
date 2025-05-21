@@ -118,6 +118,8 @@ python scripts/drift_detect.py
 6. Theo dõi MLflow
 
 mlflow ui
+
+
 7. deploy fastAPI
 python scripts/api.py
 
