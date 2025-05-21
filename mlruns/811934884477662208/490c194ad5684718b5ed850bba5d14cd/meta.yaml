@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/811934884477662208/490c194ad5684718b5ed850bba5d14cd/artifacts
+end_time: 1747130849287
+entry_point_name: ''
+experiment_id: '811934884477662208'
+lifecycle_stage: active
+run_id: 490c194ad5684718b5ed850bba5d14cd
+run_name: unequaled-fly-766
+run_uuid: 490c194ad5684718b5ed850bba5d14cd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747130848356
+status: 3
+tags: []
+user_id: anhnh

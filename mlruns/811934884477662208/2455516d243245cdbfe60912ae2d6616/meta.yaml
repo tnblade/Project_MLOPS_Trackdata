@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/811934884477662208/2455516d243245cdbfe60912ae2d6616/artifacts
+end_time: 1747129654342
+entry_point_name: ''
+experiment_id: '811934884477662208'
+lifecycle_stage: active
+run_id: 2455516d243245cdbfe60912ae2d6616
+run_name: orderly-croc-142
+run_uuid: 2455516d243245cdbfe60912ae2d6616
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747129653349
+status: 3
+tags: []
+user_id: anhnh

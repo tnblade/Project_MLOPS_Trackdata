@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/811934884477662208/d22b048f36174e2ba97f5ffd41f05936/artifacts
+end_time: 1747131855841
+entry_point_name: ''
+experiment_id: '811934884477662208'
+lifecycle_stage: active
+run_id: d22b048f36174e2ba97f5ffd41f05936
+run_name: rambunctious-carp-77
+run_uuid: d22b048f36174e2ba97f5ffd41f05936
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747131855321
+status: 3
+tags: []
+user_id: anhnh

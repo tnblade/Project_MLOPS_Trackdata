@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/811934884477662208/ff3f25f168744203af7b73d386044e9c/artifacts
+end_time: 1747131855294
+entry_point_name: ''
+experiment_id: '811934884477662208'
+lifecycle_stage: active
+run_id: ff3f25f168744203af7b73d386044e9c
+run_name: nimble-kit-206
+run_uuid: ff3f25f168744203af7b73d386044e9c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747131854613
+status: 3
+tags: []
+user_id: anhnh

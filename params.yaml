@@ -1,0 +1,23 @@
+train:
+  n_estimators: 100
+  max_depth: 10
+
+tune:
+  n_trials: 20
+  n_estimators_range: [50, 200]
+  max_depth_range: [3, 15]
+
+model:
+  random_state: 42
+
+data:
+  raw_path: data/raw/WA_Fn-UseC_-Telco-Customer-Churn.csv
+  processed_train: data/processed/train.npz
+  processed_test: data/processed/test.npz
+
+output:
+  model_path: models/model.pkl
+  best_model_path: models/best_model.pkl
+  preprocessor_path: models/preprocessor.pkl
+  eval_report: reports/eval_report.json
+  drift_report: reports/drift_report.html

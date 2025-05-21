@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/811934884477662208/dcdd8e25a25b4c879fe8867036b646aa/artifacts
+end_time: 1747129657548
+entry_point_name: ''
+experiment_id: '811934884477662208'
+lifecycle_stage: active
+run_id: dcdd8e25a25b4c879fe8867036b646aa
+run_name: casual-slug-123
+run_uuid: dcdd8e25a25b4c879fe8867036b646aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747129656688
+status: 3
+tags: []
+user_id: anhnh

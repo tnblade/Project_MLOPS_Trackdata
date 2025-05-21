@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/811934884477662208/667dc0c232ea4ee5bc630507dd21211a/artifacts
+end_time: 1747129643222
+entry_point_name: ''
+experiment_id: '811934884477662208'
+lifecycle_stage: active
+run_id: 667dc0c232ea4ee5bc630507dd21211a
+run_name: debonair-bat-437
+run_uuid: 667dc0c232ea4ee5bc630507dd21211a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747129642339
+status: 3
+tags: []
+user_id: anhnh

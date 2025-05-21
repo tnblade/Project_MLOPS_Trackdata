@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/811934884477662208/4d6fcea3a92f4a43b96a62d34edf9f1d/artifacts
+end_time: 1747129644152
+entry_point_name: ''
+experiment_id: '811934884477662208'
+lifecycle_stage: active
+run_id: 4d6fcea3a92f4a43b96a62d34edf9f1d
+run_name: stately-dolphin-108
+run_uuid: 4d6fcea3a92f4a43b96a62d34edf9f1d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747129643242
+status: 3
+tags: []
+user_id: anhnh

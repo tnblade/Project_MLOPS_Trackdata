@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/811934884477662208/f41b9e11ba684640a675ec3440c39187/artifacts
+end_time: 1747131624257
+entry_point_name: ''
+experiment_id: '811934884477662208'
+lifecycle_stage: active
+run_id: f41b9e11ba684640a675ec3440c39187
+run_name: welcoming-goat-955
+run_uuid: f41b9e11ba684640a675ec3440c39187
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747131622945
+status: 3
+tags: []
+user_id: anhnh

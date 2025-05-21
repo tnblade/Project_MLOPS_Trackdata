@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/894960502596673989/b3a51a51a43c41f88efd836a7cf610c6/artifacts
+end_time: 1747129698131
+entry_point_name: ''
+experiment_id: '894960502596673989'
+lifecycle_stage: active
+run_id: b3a51a51a43c41f88efd836a7cf610c6
+run_name: auspicious-kit-590
+run_uuid: b3a51a51a43c41f88efd836a7cf610c6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747129693472
+status: 3
+tags: []
+user_id: anhnh

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/811934884477662208/0912dfdd3442436a9dd28cad502b6583/artifacts
+end_time: 1747129645819
+entry_point_name: ''
+experiment_id: '811934884477662208'
+lifecycle_stage: active
+run_id: 0912dfdd3442436a9dd28cad502b6583
+run_name: caring-fox-460
+run_uuid: 0912dfdd3442436a9dd28cad502b6583
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747129644534
+status: 3
+tags: []
+user_id: anhnh

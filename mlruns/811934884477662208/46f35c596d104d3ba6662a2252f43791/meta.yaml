@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/811934884477662208/46f35c596d104d3ba6662a2252f43791/artifacts
+end_time: 1747129638977
+entry_point_name: ''
+experiment_id: '811934884477662208'
+lifecycle_stage: active
+run_id: 46f35c596d104d3ba6662a2252f43791
+run_name: gifted-frog-631
+run_uuid: 46f35c596d104d3ba6662a2252f43791
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747129637945
+status: 3
+tags: []
+user_id: anhnh

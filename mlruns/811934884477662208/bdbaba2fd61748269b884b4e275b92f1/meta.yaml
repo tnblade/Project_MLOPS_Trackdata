@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/811934884477662208/bdbaba2fd61748269b884b4e275b92f1/artifacts
+end_time: 1747131857667
+entry_point_name: ''
+experiment_id: '811934884477662208'
+lifecycle_stage: active
+run_id: bdbaba2fd61748269b884b4e275b92f1
+run_name: thundering-moose-238
+run_uuid: bdbaba2fd61748269b884b4e275b92f1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747131855867
+status: 3
+tags: []
+user_id: anhnh

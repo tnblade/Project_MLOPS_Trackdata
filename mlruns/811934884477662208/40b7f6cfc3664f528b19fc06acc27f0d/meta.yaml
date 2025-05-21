@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/811934884477662208/40b7f6cfc3664f528b19fc06acc27f0d/artifacts
+end_time: 1747129648052
+entry_point_name: ''
+experiment_id: '811934884477662208'
+lifecycle_stage: active
+run_id: 40b7f6cfc3664f528b19fc06acc27f0d
+run_name: traveling-finch-702
+run_uuid: 40b7f6cfc3664f528b19fc06acc27f0d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747129647336
+status: 3
+tags: []
+user_id: anhnh

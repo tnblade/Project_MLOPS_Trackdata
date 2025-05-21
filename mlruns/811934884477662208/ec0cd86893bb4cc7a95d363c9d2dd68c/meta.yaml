@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/811934884477662208/ec0cd86893bb4cc7a95d363c9d2dd68c/artifacts
+end_time: 1747129647302
+entry_point_name: ''
+experiment_id: '811934884477662208'
+lifecycle_stage: active
+run_id: ec0cd86893bb4cc7a95d363c9d2dd68c
+run_name: merciful-bat-864
+run_uuid: ec0cd86893bb4cc7a95d363c9d2dd68c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747129645837
+status: 3
+tags: []
+user_id: anhnh

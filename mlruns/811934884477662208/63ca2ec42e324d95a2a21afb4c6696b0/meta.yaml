@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/811934884477662208/63ca2ec42e324d95a2a21afb4c6696b0/artifacts
+end_time: 1747130870569
+entry_point_name: ''
+experiment_id: '811934884477662208'
+lifecycle_stage: active
+run_id: 63ca2ec42e324d95a2a21afb4c6696b0
+run_name: shivering-fly-536
+run_uuid: 63ca2ec42e324d95a2a21afb4c6696b0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747130868349
+status: 3
+tags: []
+user_id: anhnh
