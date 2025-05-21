@@ -41,12 +41,13 @@ def predict(data: Customer):
     X = preprocessor.transform(df)
     pred = model.predict(X)[0]
     proba = model.predict_proba(X)[0][1]
-    print("🚀 Input data:", data.dict())
+    print(" Input data:", data.dict())
     df = pd.DataFrame([data.dict()])
-    print("📊 DataFrame:\n", df)
+    print(" DataFrame:\n", df)
     return {"churn": int(pred), "churn_probability": round(proba, 3)}
     
     
 if __name__ == "__main__":
-    uvicorn.run("scripts.api:app", host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run("scripts.api.main:app", host="0.0.0.0", port=8000)
+
 
