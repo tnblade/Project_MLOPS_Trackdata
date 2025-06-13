@@ -42,6 +42,8 @@ Dự án xây dựng pipeline machine learning hoàn chỉnh để **dự đoán
 | Docker        | Đóng gói & triển khai dịch vụ |
 
 ---
+## Link gdrive show video demo
+https://drive.google.com/drive/folders/1v-Cm9WxO3KSNequrqD9mSdlblWjfY6Hk?usp=sharing
 
 ## 🔧 Cài đặt môi trường (Chạy Local thủ công)
 
