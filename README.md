@@ -1,108 +1,132 @@
+# 🔍 Customer Churn Prediction - ML Pipeline Production
 
 ## 🚀 Giới thiệu dự án
-- Data & Model Versioning (DVC)
-- Experiment Tracking (MLflow)
-- Hyperparameter Tuning (Optuna)
-- Drift Detection
-- CI/CD (có thể mở rộng với GitHub Actions)
-- Triển khai mô hình với FastAPI (có thể nâng cấp thêm Prometheus + Grafana)
-> 🎯 Mục tiêu: Dự đoán khách hàng có rời bỏ dịch vụ hay không, triển khai pipeline dễ mở rộng & tái sử dụng trong môi trường production.
 
-## 💡 Điểm nổi bật & sáng tạo
+Dự án xây dựng pipeline machine learning hoàn chỉnh để **dự đoán khả năng rời bỏ dịch vụ của khách hàng**, bao gồm:
 
-- ✅ **Tự động hoá toàn bộ quy trình training** thông qua `dvc.yaml`
-- ✅ **Tracking toàn bộ thí nghiệm** bằng MLflow (params, metrics, artifact)
-- ✅ **Tuning tự động** bằng Optuna + log lại vào MLflow
-- ✅ **Xử lý drift dữ liệu** để kiểm tra nếu mô hình cần retrain
-- ✅ Dễ dàng mở rộng với GitHub Actions, Prometheus, Grafana, FastAPI
-- ✅ Thân thiện khi cộng tác nhóm (DVC hỗ trợ push/pull dữ liệu & model)
+- ✅ Data & Model Versioning (DVC)
+- ✅ Experiment Tracking (MLflow)
+- ✅ Hyperparameter Tuning (Optuna)
+- ✅ Drift Detection
+- ✅ Triển khai mô hình với FastAPI
+- ✅ Monitoring & Logging (Prometheus, Grafana, Alertmanager)
+- ✅ Có thể mở rộng với CI/CD (GitHub Actions)
 
-## ⚙️ Framework & Công nghệ sử dụng
+> 🎯 **Mục tiêu**: Xây dựng pipeline dễ mở rộng & tái sử dụng, sẵn sàng triển khai trong môi trường production.
 
-| Công nghệ     | Mục đích |
+---
+
+## 💡 Điểm nổi bật
+
+| Tính năng | Mô tả |
+|----------|-------|
+| **DVC** | Quản lý pipeline và version dữ liệu, model |
+| **MLflow** | Theo dõi toàn bộ thông số huấn luyện, metric và artifact |
+| **Optuna** | Tự động tìm hyperparameter tối ưu |
+| **FastAPI** | Cung cấp API dự đoán |
+| **Prometheus + Grafana** | Giám sát tài nguyên hệ thống, mô hình & API |
+| **Alertmanager** | Gửi cảnh báo nếu có bất thường |
+
+---
+
+## 🧱 Công nghệ sử dụng
+
+| Công nghệ     | Vai trò |
 |---------------|---------|
-| **DVC**       | Pipeline orchestration & version control (dữ liệu & model) |
-| **MLflow**    | Theo dõi thí nghiệm: hyperparams, metrics, artifact |
-| **Optuna**    | Tối ưu hoá hyperparameters |
-| **scikit-learn** | Huấn luyện model Random Forest |
-| **FastAPI**   | (có thể triển khai) API dự đoán mô hình |
-| **joblib**    | Lưu mô hình & pipeline |
-| **Pandas/Numpy** | Xử lý dữ liệu |
-| **Python ≥ 3.8** | Ngôn ngữ chính |
+| Python ≥ 3.8  | Ngôn ngữ chính |
+| scikit-learn  | Huấn luyện mô hình |
+| DVC           | Quản lý pipeline & model |
+| MLflow        | Theo dõi quá trình training |
+| Optuna        | Hyperparameter tuning |
+| FastAPI       | Triển khai API dự đoán |
+| Prometheus    | Thu thập metrics |
+| Grafana       | Dashboard trực quan |
+| Alertmanager  | Hệ thống cảnh báo |
+| Docker        | Đóng gói & triển khai dịch vụ |
 
-## Link gdrive show video demo: https://drive.google.com/drive/folders/1v-Cm9WxO3KSNequrqD9mSdlblWjfY6Hk?usp=sharing
+---
 
-## 🛠️ Hướng dẫn cài đặt setup trên máy (local chạy thủ công)
+## 🔧 Cài đặt môi trường (Chạy Local thủ công)
 
-1. setup môi trường
+### 1. Tạo môi trường
+conda create -n churn_env python=3.9
+conda activate churn_env
 
-conda create name_env python3.9
-
-conda activate name_env
-
-python.exe -m pip install --upgrade pip
-
+### 2. Cài thư viện
+pip install --upgrade pip
 pip install -r requirements.txt
 
-2. Tiền xử lý dữ liệu
+## Chạy pipeline từng bước
 
+### 1. Tiền xử lý dữ liệu
 python scripts/data_load.py
 
-3. Tim best parameter
-
+### 2. Tìm hyperparameters tốt nhất
 python scripts/hyperparameter.py
 
-4. Huấn luyện mô hình
-
+### 3. Huấn luyện mô hình
 python scripts/train.py
 
-5. Đánh giá mô hình
-
+### 4. Đánh giá mô hình
 python scripts/evaluate.py
 
-6. Phát hiện drift dữ liệu
-
+### 5. Phát hiện data drift
 python scripts/drift_detect.py
 
-7. Theo dõi MLflow
+### Theo dõi thí nghiệm
 
 mlflow ui
 
-8. fastAPI
-   
+Truy cập: http://localhost:5000
+
+### Dự đoán với FastAPI
+
 uvicorn scripts.api:app --reload
 
-Truy cập: http://localhost:8000/docs
+Truy cập docs: http://localhost:8000/docs
 
-## Hướng dẫn Deploy model với Docker (lưu ý mở Docker Desktop)
+## Triển khai với Docker
 
-1. setup môi trường
-   
-conda create name_env python3.9
+### 1. Tạo môi trường (chỉ lần đầu)
 
-conda activate name_env
+conda create -n churn_env python=3.9
 
-python.exe -m pip install --upgrade pip
+conda activate churn_env
 
 pip install -r requirements.txt
 
-2. Deploy API bằng Docker
+### 2. Build & Chạy toàn bộ hệ thống
 
 docker-compose up --build
 
-3. Truy cập các công cụ
+## Truy cập các dịch vụ
+Dịch vụ	Đường dẫn
+🔗 FastAPI:	http://localhost:8000/docs
+📊 Prometheus:	http://localhost:9090
+📉 Grafana:	http://localhost:3000
+🖥️ Node Exporter:	http://localhost:9100
+📦 cAdvisor (monitor container):	http://localhost:8080
+
+## Cảnh báo hệ thống (Alertmanager)
+
+Dự án tích hợp Alertmanager để gửi cảnh báo khi:
+
+❌ Tốc độ phản hồi API cao bất thường
+
+❌ Tỷ lệ lỗi vượt quá 50%
+
+❌ Confidence score < 0.6
+
+❌ CPU > 90%
+
+## Cấu hình email cảnh báo:
+
+### Điền thông tin vào .env:
 
 
-FastAPI:	http://localhost:8000/docs
+SMTP_FROM=your_email@gmail.com
+SMTP_USER=your_email@gmail.com
+SMTP_PASSWORD=your_app_password
+EMAIL_TO=recipient_email@gmail.com
 
-Prometheus:	http://localhost:9090
-
-Grafana:	http://localhost:3000
-
-Node Exporter:	http://localhost:9100
-
-cAdvisor:	http://localhost:8080
-
-
-
-
+### Khởi chạy Alertmanager (tự động qua docker-compose)

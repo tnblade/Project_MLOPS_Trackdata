@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/647544263041291159/7e2e5df4346847fc94f54d6a289ecb8f/artifacts
+end_time: 1749827797127
+entry_point_name: ''
+experiment_id: '647544263041291159'
+lifecycle_stage: active
+run_id: 7e2e5df4346847fc94f54d6a289ecb8f
+run_name: melodic-pig-274
+run_uuid: 7e2e5df4346847fc94f54d6a289ecb8f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749827795999
+status: 3
+tags: []
+user_id: anhnh

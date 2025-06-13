@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/647544263041291159/4dbd59bcb3104b5dada41458ffb9d6d9/artifacts
+end_time: 1749827781160
+entry_point_name: ''
+experiment_id: '647544263041291159'
+lifecycle_stage: active
+run_id: 4dbd59bcb3104b5dada41458ffb9d6d9
+run_name: sedate-ant-261
+run_uuid: 4dbd59bcb3104b5dada41458ffb9d6d9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749827780480
+status: 3
+tags: []
+user_id: anhnh

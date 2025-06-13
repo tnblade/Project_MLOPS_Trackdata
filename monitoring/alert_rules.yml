@@ -1,0 +1,41 @@
+groups:
+  - name: churn-api-alerts
+    rules:
+      - alert: HighLatency
+        expr: histogram_quantile(0.95, rate(http_request_duration_seconds_bucket[5m])) > 3
+        for: 2m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High latency on churn API"
+
+      - alert: HighErrorRate
+        expr: rate(http_requests_total{status=~"5.."}[5m]) / rate(http_requests_total[5m]) > 0.5
+        for: 2m
+        labels:
+          severity: critical
+        annotations:
+          summary: "High error rate on churn API"
+
+      - alert: HighCPUUsage
+        expr: 100 - (avg by(instance)(rate(node_cpu_seconds_total{mode="idle"}[1m])) * 100) > 90
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "CPU usage is over 90%"
+
+      - alert: LowConfidence
+        expr: avg_over_time(confidence_score[5m]) < 0.6
+        for: 3m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Average confidence score is below 0.6"
+      - alert: AlwaysFiringTest
+        expr: vector(1)
+        for: 10s
+        labels:
+          severity: info
+        annotations:
+          summary: "This is a test alert that always fires"

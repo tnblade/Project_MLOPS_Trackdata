@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/307338767383861750/ce00484fd7704f409f8046a7b1acfd6e/artifacts
+end_time: 1749827811263
+entry_point_name: ''
+experiment_id: '307338767383861750'
+lifecycle_stage: active
+run_id: ce00484fd7704f409f8046a7b1acfd6e
+run_name: inquisitive-crab-614
+run_uuid: ce00484fd7704f409f8046a7b1acfd6e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749827807187
+status: 3
+tags: []
+user_id: anhnh

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/647544263041291159/81e91b7dbfe64e9f8eb34a958265500a/artifacts
+end_time: 1749827785243
+entry_point_name: ''
+experiment_id: '647544263041291159'
+lifecycle_stage: active
+run_id: 81e91b7dbfe64e9f8eb34a958265500a
+run_name: overjoyed-lynx-336
+run_uuid: 81e91b7dbfe64e9f8eb34a958265500a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749827783384
+status: 3
+tags: []
+user_id: anhnh

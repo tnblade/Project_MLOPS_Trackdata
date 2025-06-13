@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/647544263041291159/a80a1d1e45ab4f80a64f70d6f2855e6c/artifacts
+end_time: 1749827776825
+entry_point_name: ''
+experiment_id: '647544263041291159'
+lifecycle_stage: active
+run_id: a80a1d1e45ab4f80a64f70d6f2855e6c
+run_name: illustrious-duck-792
+run_uuid: a80a1d1e45ab4f80a64f70d6f2855e6c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749827776389
+status: 3
+tags: []
+user_id: anhnh

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/647544263041291159/d30ac3578d4b480e9b08fe283d0900e1/artifacts
+end_time: 1749827788948
+entry_point_name: ''
+experiment_id: '647544263041291159'
+lifecycle_stage: active
+run_id: d30ac3578d4b480e9b08fe283d0900e1
+run_name: thundering-roo-883
+run_uuid: d30ac3578d4b480e9b08fe283d0900e1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749827787101
+status: 3
+tags: []
+user_id: anhnh

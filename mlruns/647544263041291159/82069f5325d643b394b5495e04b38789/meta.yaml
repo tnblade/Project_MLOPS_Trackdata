@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/647544263041291159/82069f5325d643b394b5495e04b38789/artifacts
+end_time: 1749827795977
+entry_point_name: ''
+experiment_id: '647544263041291159'
+lifecycle_stage: active
+run_id: 82069f5325d643b394b5495e04b38789
+run_name: nebulous-moose-718
+run_uuid: 82069f5325d643b394b5495e04b38789
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749827794736
+status: 3
+tags: []
+user_id: anhnh

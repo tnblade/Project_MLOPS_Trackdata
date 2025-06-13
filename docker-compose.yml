@@ -1,3 +1,5 @@
+version: '3.8'
+
 services:
   churn-api:
     build: .
@@ -8,6 +10,11 @@ services:
     depends_on:
       - db
       - redis
+      - prometheus
+    environment:
+      - PROMETHEUS_MULTIPROC_DIR=/tmp
+    volumes:
+      - ./logs:/app/logs
 
   db:
     image: postgres:15
@@ -27,5 +34,54 @@ services:
     ports:
       - "6379:6379"
 
+  prometheus:
+    image: prom/prometheus
+    container_name: prometheus-container
+    restart: always
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+      - ./monitoring/alert_rules.yml:/etc/prometheus/alert_rules.yml
+
+  alertmanager:
+    image: prom/alertmanager
+    container_name: alertmanager
+    ports:
+      - "9093:9093"
+    volumes:
+      - ./monitoring/alertmanager.yml:/etc/alertmanager/alertmanager.yml
+      - ./monitoring/alert_rules.yml:/etc/alertmanager/alert_rules.yml
+    env_file:
+      - .env
+
+  grafana:
+    image: grafana/grafana
+    container_name: grafana-container
+    restart: always
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafana_data:/var/lib/grafana
+
+  node_exporter:
+    image: prom/node-exporter
+    container_name: node-exporter
+    restart: always
+    ports:
+      - "9100:9100"
+
+  fluent-bit:
+    image: fluent/fluent-bit:latest
+    container_name: fluent-bit
+    restart: always
+    volumes:
+      - ./logging/fluent-bit.conf:/fluent-bit/etc/fluent-bit.conf
+      - ./logging/parsers.conf:/fluent-bit/etc/parsers.conf
+      - ./logs:/var/log
+    ports:
+      - "2020:2020"
+
 volumes:
   db_data:
+  grafana_data:

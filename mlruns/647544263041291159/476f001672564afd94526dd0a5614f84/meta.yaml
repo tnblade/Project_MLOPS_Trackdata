@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Study/MLOps/Projects/mlruns/647544263041291159/476f001672564afd94526dd0a5614f84/artifacts
+end_time: 1749827792173
+entry_point_name: ''
+experiment_id: '647544263041291159'
+lifecycle_stage: active
+run_id: 476f001672564afd94526dd0a5614f84
+run_name: mercurial-lynx-779
+run_uuid: 476f001672564afd94526dd0a5614f84
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749827790595
+status: 3
+tags: []
+user_id: anhnh

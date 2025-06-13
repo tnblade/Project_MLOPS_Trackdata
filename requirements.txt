@@ -1,17 +1,30 @@
-# This file is used to install the required packages for the project.                           
-# It is recommended to use a virtual environment to avoid conflicts with other projects.
-# You can create a virtual environment using the following command:
+# API & Serving
 fastapi==0.110.1
 uvicorn[standard]==0.29.0
 gunicorn==21.2.0
+python-multipart==0.0.9
+pydantic==2.7.1
+
+# Data & ML
 scikit-learn==1.3.2
 joblib==1.3.2
 pandas==2.2.1
 numpy==1.26.4
+shap
+
+# MLOps & Experiment Tracking
 mlflow==2.12.1
 optuna==3.6.1
-dvc==3.50.1
+
+# Data Versioning
 dvc[gdrive]==3.50.1
+
+# Drift & Monitoring
 evidently==0.4.17
-pydantic==2.7.1
-python-multipart==0.0.9 
+prometheus-fastapi-instrumentator==6.1.0
+prometheus-client==0.20.0
+# Logging
+loguru==0.7.0   
+# Miscellaneous
+python-dotenv==1.0.0
+requests==2.31.0
