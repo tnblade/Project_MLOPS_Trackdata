@@ -90,5 +90,14 @@ pip install -r requirements.txt
 
 docker-compose up --build
 
+3. Truy cập các công cụ
+Công cụ	Địa chỉ truy cập
+FastAPI:	http://localhost:8000/docs
+Prometheus:	http://localhost:9090
+Grafana:	http://localhost:3000
+Node Exporter:	http://localhost:9100
+cAdvisor:	http://localhost:8080
+
+
 
 
