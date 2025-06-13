@@ -4,7 +4,6 @@
 
 Dự án xây dựng pipeline machine learning hoàn chỉnh để **dự đoán khả năng rời bỏ dịch vụ của khách hàng**, bao gồm:
 
-- ✅ Data & Model Versioning (DVC)
 - ✅ Experiment Tracking (MLflow)
 - ✅ Hyperparameter Tuning (Optuna)
 - ✅ Drift Detection
@@ -20,7 +19,6 @@ Dự án xây dựng pipeline machine learning hoàn chỉnh để **dự đoán
 
 | Tính năng | Mô tả |
 |----------|-------|
-| **DVC** | Quản lý pipeline và version dữ liệu, model |
 | **MLflow** | Theo dõi toàn bộ thông số huấn luyện, metric và artifact |
 | **Optuna** | Tự động tìm hyperparameter tối ưu |
 | **FastAPI** | Cung cấp API dự đoán |
@@ -35,7 +33,6 @@ Dự án xây dựng pipeline machine learning hoàn chỉnh để **dự đoán
 |---------------|---------|
 | Python ≥ 3.8  | Ngôn ngữ chính |
 | scikit-learn  | Huấn luyện mô hình |
-| DVC           | Quản lý pipeline & model |
 | MLflow        | Theo dõi quá trình training |
 | Optuna        | Hyperparameter tuning |
 | FastAPI       | Triển khai API dự đoán |
@@ -100,11 +97,17 @@ pip install -r requirements.txt
 docker-compose up --build
 
 ## Truy cập các dịch vụ
+
 Dịch vụ	Đường dẫn
+
 🔗 FastAPI:	http://localhost:8000/docs
+
 📊 Prometheus:	http://localhost:9090
+
 📉 Grafana:	http://localhost:3000
+
 🖥️ Node Exporter:	http://localhost:9100
+
 📦 cAdvisor (monitor container):	http://localhost:8080
 
 ## Cảnh báo hệ thống (Alertmanager)
@@ -123,10 +126,12 @@ Dự án tích hợp Alertmanager để gửi cảnh báo khi:
 
 ### Điền thông tin vào .env:
 
-
 SMTP_FROM=your_email@gmail.com
+
 SMTP_USER=your_email@gmail.com
+
 SMTP_PASSWORD=your_app_password
+
 EMAIL_TO=recipient_email@gmail.com
 
 ### Khởi chạy Alertmanager (tự động qua docker-compose)
